@@ -1,38 +1,38 @@
 {
-  "name": "@skit/x.surely-vue-table",
-  "title": "X Surely Vue Table",
-  "description": "",
-  "version": "0.0.1",
-  "author": "Fu Diwei",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fudiwei/x.surely-vue-table.git"
-  },
-  "license": "MIT",
-  "type": "module",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
-  "engines": {
-      "node": ">=18.12",
-      "npm": ">=8",
-      "pnpm": ">=8"
-  },
-  "files": [
-      "dist/*"
-  ],
-  "dependencies": {
-    "crypto-js": "^4.2.0",
-    "js-base64": "^3.7.7"
-  },
-  "devDependencies": {
-    "@surely-vue/table": "^4.2.13",
-    "@types/crypto-js": "^4.2.2"
-  },
-  "peerDependencies": {
-    "@surely-vue/table": "^2.0.0 || ^3.0.0 || ^4.0.0"
-  },
-  "sideEffects": false,
-  "unpkg": "dist/index.umd.js",
-  "jsdelivr": "dist/index.umd.js"
+    "name": "@skit/x.surely-vue-table",
+    "title": "X Surely Vue Table",
+    "description": "",
+    "version": "0.0.1",
+    "author": "Fu Diwei",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fudiwei/x.surely-vue-table.git"
+    },
+    "license": "MIT",
+    "type": "module",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "engines": {
+        "node": ">=18.12",
+        "npm": ">=8",
+        "pnpm": ">=8"
+    },
+    "files": [
+        "dist/*"
+    ],
+    "dependencies": {
+        "crypto-js": "^4.2.0",
+        "js-base64": "^3.7.7"
+    },
+    "devDependencies": {
+        "@surely-vue/table": "^4.2.13",
+        "@types/crypto-js": "^4.2.2"
+    },
+    "peerDependencies": {
+        "@surely-vue/table": "^2.0.0 || ^3.0.0 || ^4.0.0"
+    },
+    "sideEffects": false,
+    "unpkg": "dist/index.umd.js",
+    "jsdelivr": "dist/index.umd.js"
 }
