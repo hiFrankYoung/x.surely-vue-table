@@ -1,0 +1,19 @@
+{
+    "name": "@skit/x.surely-vue-table-sample",
+    "private": true,
+    "scripts": {
+        "serve": "vite"
+    },
+    "dependencies": {
+        "@surely-vue/table": "^4.2.13",
+        "ant-design-vue": "^4.1.2",
+        "vue": "^3.4.21"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.0.4",
+        "@vue/compiler-sfc": "^3.4.21",
+        "@vue/runtime-core": "^3.4.21",
+        "less-loader": "^12.2.0",
+        "vite": "^5.1.6"
+    }
+}
