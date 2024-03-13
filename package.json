@@ -21,18 +21,44 @@
     "files": [
         "dist/*"
     ],
+    "exports": {
+        ".": {
+            "require": {
+                "default": "./dist/index.cjs.js",
+                "types": "./dist/index.d.ts"
+            },
+            "import": {
+                "default": "./dist/index.esm.js",
+                "types": "./dist/index.d.ts"
+            }
+        }
+    },
+    "scripts": {
+        "build": "rollup -c",
+        "prepublishOnly": "pnpm run build"
+    },
     "dependencies": {
         "crypto-js": "^4.2.0",
         "js-base64": "^3.7.7"
     },
     "devDependencies": {
+        "@babel/core": "^7.24.0",
+        "@babel/preset-env": "^7.24.0",
+        "@rollup/plugin-babel": "^6.0.4",
+        "@rollup/plugin-commonjs": "^25.0.7",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@rollup/plugin-terser": "^0.4.4",
+        "@rollup/plugin-typescript": "^11.1.6",
         "@surely-vue/table": "^4.2.13",
-        "@types/crypto-js": "^4.2.2"
+        "@types/crypto-js": "^4.2.2",
+        "deepmerge": "^4.3.1",
+        "esbuild": "^0.20.1",
+        "rollup": "^3.29.4",
+        "tslib": "~2.6.0",
+        "typescript": "~5.4.0"
     },
     "peerDependencies": {
         "@surely-vue/table": "^2.0.0 || ^3.0.0 || ^4.0.0"
     },
-    "sideEffects": false,
-    "unpkg": "dist/index.umd.js",
-    "jsdelivr": "dist/index.umd.js"
+    "sideEffects": false
 }
