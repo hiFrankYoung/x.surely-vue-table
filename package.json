@@ -1,8 +1,8 @@
 {
     "name": "@skit/x.surely-vue-table",
     "title": "X Surely Vue Table",
-    "description": "",
-    "version": "0.0.1",
+    "description": "破解 @surely-vue/table 的授权限制，完美去除水印、去除控制台警告。",
+    "version": "0.1.0",
     "author": "Fu Diwei",
     "repository": {
         "type": "git",

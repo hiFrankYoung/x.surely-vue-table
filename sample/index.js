@@ -5,7 +5,7 @@ import 'ant-design-vue/dist/reset.css';
 import '@surely-vue/table/dist/index.less';
 
 import { hackLicenseKey } from '@skit/x.surely-vue-table';
-hackLicenseKey(); // 试试注注释这行代码后刷新看看～
+hackLicenseKey(); // 试试注注释这行代码后再刷新看看～
 
 import App from './main.vue';
 createApp(App).use(Antd).use(STable).mount('#app');

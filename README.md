@@ -12,7 +12,7 @@
 
 ## 简介
 
-破解 [@surely/vue-table](https://github.com/surely-vue/surely-table) 的授权限制，完美去除水印、去除控制台警告。
+破解 [@surely-vue/table](https://github.com/surely-vue/surely-table) 的授权限制，完美去除水印、去除控制台警告。
 
 > [!CAUTION]
 > 🤫 仅供个人非盈利项目使用，商业用途请支持正版。
@@ -24,7 +24,7 @@
 ### 1. 安装依赖：
 
 ```shell
-> npm install @surely/table # 需要你自行安装 @surely/table
+> npm install @surely-vue/table # 需要你自行安装 @surely-vue/table
 > npm install @skit/x.surely-vue-table
 ```
 
