@@ -14,10 +14,10 @@
 
 破解 [@surely-vue/table](https://github.com/surely-vue/surely-table) 的授权限制，完美去除水印、去除控制台警告。
 
-支持 @surely-vue/table v2.x~v4.x 全版本。如果它的授权算法不改的话后续版本也依旧支持。
+支持 @surely-vue/table v2.x~v4.x 全版本（如果它的授权算法不改的话后续版本理论也同样支持），破解后等同于旗舰版。
 
 > [!CAUTION]
-> 🤫 仅供个人非盈利项目使用，商业用途请支持正版。
+> 🤫 仅供个人非盈利项目使用，商业用途请[支持正版](https://www.surely.cool/pricing)。
 
 ---
 
