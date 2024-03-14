@@ -12,8 +12,8 @@ interface HackLicenseKeyOptions {
  * @param {String} [options.hostname] 授权域名（默认值：`location.hostname`）。
  */
 export const hackLicenseKey = (options?: HackLicenseKeyOptions) => {
-    const domain = options?.hostname ?? location.hostname;
-    const key = encodeBase64(`ORDER:00001,EXPIRY=33227712000000,DOMAIN=${domain},KEYVERSION=1`);
+    const domain = options?.hostname ?? globalThis.location.hostname;
+    const key = encodeBase64(`ORDER:00001,EXPIRY=33227712000000,DOMAIN=${domain},ULTIMATE=1,KEYVERSION=1`);
     const sign = md5(key).toString().toLowerCase();
     setLicenseKey(`${sign}${key}`);
 };
